@@ -1,0 +1,48 @@
+# --------------------------------------------------------------
+# ᴋʀɪsᴛᴀʟ ᴘʟᴀᴄᴇʜᴏʟᴅᴇʀ ʟɪsᴛᴇsɪ:
+#
+# %kristal_balance% -> ᴏʏᴜɴᴄᴜɴᴜɴ sᴀғ ᴋʀɪsᴛᴀʟ ᴍɪᴋᴛᴀʀıɴı ɢᴏsᴛᴇʀɪʀ.
+# %kristal_balance_formatted% -> ᴏʏᴜɴᴄᴜɴᴜɴ ғᴏʀᴍᴀᴛʟᴀɴᴍıs (1ᴋ, 1ᴍ, 1ᴍʀ) ᴍɪᴋᴛᴀʀıɴı ɢᴏsᴛᴇʀɪʀ.
+# %kristal_vault_(sayı)_name% -> sıʀᴀʟᴀᴍᴀᴅᴀᴋɪ (sᴀʏı). ᴋɪsɪɴɪɴ ᴀᴅıɴı ɢᴏsᴛᴇʀɪʀ.
+# %kristal_vault_(sayı)_balance% -> sıʀᴀʟᴀᴍᴀᴅᴀᴋɪ (sᴀʏı). ᴋɪsɪɴɪɴ ғᴏʀᴍᴀᴛʟᴀɴᴍıs ᴘᴀʀᴀsıɴı ɢᴏsᴛᴇʀɪʀ.
+#
+# ɴᴏᴛ: sıʀᴀʟᴀᴍᴀ 1 sᴀɴɪʏᴇᴅᴇ ʙɪʀ ᴏᴛᴏᴍᴀᴛɪᴋ ᴏʟᴀʀᴀᴋ ʏᴇɴɪʟᴇɴɪʀ.
+# --------------------------------------------------------------
+
+settings:
+  max-kristal: 1000000000
+  min-kristal: 0
+  # Kısaltmalar
+  format:
+    thousand: "k"
+    million: "m"
+    billion: "mr"
+
+messages:
+  prefix: "&b&lᴋʀɪsᴛᴀʟ &8» "
+  no-permission: "&cʙᴜ ᴋᴏᴍᴜᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪᴄɪɴ ʏᴇᴛᴋɪɴɪᴢ ʏᴏᴋ!"
+  only-players: "&csᴀᴅᴇᴄᴇ ᴏʏᴜɴᴄᴜʟᴀʀ ʙᴜ ᴋᴏᴍᴜᴛᴜ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀ."
+  usage: "&cᴋᴜʟʟᴀɴıᴍ: /ᴋʀɪsᴛᴀʟ <ɢɪᴠᴇ|ᴛᴀᴋᴇ|sᴇᴛ|ʀᴇsᴇᴛ|ʀᴇʟᴏᴀᴅ|ᴠɪᴇᴡ> [ᴏʏᴜɴᴄᴜ] [ᴍɪᴋᴛᴀʀ]"
+  player-not-found: "&cᴏʏᴜɴᴄᴜ ʙᴜʟᴜɴᴀᴍᴀᴅı."
+  invalid-amount: "&cɢᴇᴄᴇʀsɪᴢ ᴍɪᴋᴛᴀʀ! ᴍɪᴋᴛᴀʀ 0 ɪʟᴇ 1 ᴍɪʟʏᴀʀ ᴀʀᴀsıɴᴅᴀ ᴏʟᴍᴀʟıᴅıʀ."
+  insufficient-funds: "&cʙᴜ ɪsʟᴇᴍɪ ʏᴀᴘᴍᴀᴋ ɪᴄɪɴ ᴏʏᴜɴᴄᴜɴᴜɴ ʏᴇᴛᴇʀʟɪ ᴋʀɪsᴛᴀʟɪ ʏᴏᴋ!"
+  reload-success: "&aʏᴀᴘıʟᴀɴᴅıʀᴍᴀ ᴅᴏsʏᴀsı ʙᴀsᴀʀıʏʟᴀ ʏᴇɴɪᴅᴇɴ ʏᴜᴋʟᴇɴᴅɪ."
+  
+  # Bakiye görme
+  balance-self: "&fᴍᴇᴠᴄᴜᴛ ᴋʀɪsᴛᴀʟ ᴍɪᴋᴛᴀʀıɴıᴢ: &b%kristal_balance_formatted%"
+  balance-other: "&a%target% &fᴀᴅʟı ᴏʏᴜɴᴄᴜɴᴜɴ ᴋʀɪsᴛᴀʟɪ: &b%kristal_balance_formatted%"
+  
+  # Komut çıktıları
+  give-success: "&a%target% &fᴀᴅʟı ᴏʏᴜɴᴄᴜʏᴀ &b%amount% &fᴋʀɪsᴛᴀʟ ᴠᴇʀɪʟᴅɪ."
+  give-receive: "&a%amount% &fᴋʀɪsᴛᴀʟ ʜᴇsᴀʙıɴıᴢᴀ ᴇᴋʟᴇɴᴅɪ!"
+  take-success: "&a%target% &fᴀᴅʟı ᴏʏᴜɴᴄᴜᴅᴀɴ &b%amount% &fᴋʀɪsᴛᴀʟ ᴀʟıɴᴅı."
+  take-receive: "&cʜᴇsᴀʙıɴıᴢᴅᴀɴ &b%amount% &fᴋʀɪsᴛᴀʟ ᴀʟıɴᴅı!"
+  set-success: "&a%target% &fᴀᴅʟı ᴏʏᴜɴᴄᴜɴᴜɴ ᴋʀɪsᴛᴀʟɪ &b%amount% &fᴏʟᴀʀᴀᴋ ᴀʏᴀʀʟᴀɴᴅı."
+  set-receive: "&fᴋʀɪsᴛᴀʟ ᴍɪᴋᴛᴀʀıɴıᴢ &b%amount% &fᴏʟᴀʀᴀᴋ ɢᴜɴᴄᴇʟʟᴇɴᴅɪ!"
+  reset-success: "&a%target% &fᴀᴅʟı ᴏʏᴜɴᴄᴜɴᴜɴ ᴋʀɪsᴛᴀʟɪ &csıfıʀʟᴀɴᴅı."
+  reset-receive: "&fᴋʀɪsᴛᴀʟ ᴍɪᴋᴛᴀʀıɴıᴢ &csıfıʀʟᴀɴᴅı!"
+
+  # Toplu işlemler
+  broadcast-give: "&b&lᴋʀɪsᴛᴀʟ &8» &aʜᴇʀᴋᴇsɪɴ ʜᴇsᴀʙıɴᴀ &b%amount% &fᴋʀɪsᴛᴀʟ ᴇᴋʟᴇɴᴅɪ!"
+  broadcast-set: "&b&lᴋʀɪsᴛᴀʟ &8» &fʜᴇʀᴋᴇsɪɴ ᴋʀɪsᴛᴀʟɪ &b%amount% &fᴏʟᴀʀᴀᴋ ᴀʏᴀʀʟᴀɴᴅı!"
+  broadcast-reset: "&b&lᴋʀɪsᴛᴀʟ &8» &fʜᴇʀᴋᴇsɪɴ ᴋʀɪsᴛᴀʟɪ &csıfıʀʟᴀɴᴅı!"

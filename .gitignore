@@ -1,0 +1,12 @@
+target/
+*.log
+.idea/
+.vscode/
+*.iml
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db

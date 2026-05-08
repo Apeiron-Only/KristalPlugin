@@ -1,0 +1,20 @@
+name: Kristal
+version: 1.0
+main: me.kristal.Kristal
+api-version: '1.21'
+author: Apeiron
+description: Kristal para birimi sistemi.
+softdepend: [PlaceholderAPI]
+commands:
+  kristal:
+    description: Kristal ana komutu.
+    permission: kristal.use
+permissions:
+  kristal.*:
+    description: Tüm kristal yetkileri.
+    children:
+      kristal.give: true
+      kristal.take: true
+      kristal.set: true
+      kristal.reset: true
+      kristal.use: true
